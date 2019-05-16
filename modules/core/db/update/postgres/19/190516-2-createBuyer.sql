@@ -1,0 +1,2 @@
+alter table ONLINESHOP_BUYER add constraint FK_ONLINESHOP_BUYER_ON_USER foreign key (USER_ID) references SEC_USER(ID);
+create index IDX_ONLINESHOP_BUYER_ON_USER on ONLINESHOP_BUYER (USER_ID);

@@ -1,0 +1,1 @@
+update SEC_USER set DTYPE = 'onlineshop$ExtUser' where DTYPE is null ;
