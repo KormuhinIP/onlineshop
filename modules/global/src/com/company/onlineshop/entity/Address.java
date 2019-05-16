@@ -8,6 +8,7 @@ import javax.persistence.Embeddable;
 import javax.validation.constraints.NotNull;
 
 @Embeddable
+
 @MetaClass(name = "onlineshop$Address")
 public class Address extends EmbeddableEntity {
     @NotNull

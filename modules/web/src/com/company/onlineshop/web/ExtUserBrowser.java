@@ -25,6 +25,7 @@ public class ExtUserBrowser extends UserBrowser {
         usersDs.addCollectionChangeListener(e -> {
             if (e.getOperation() == ADD||e.getOperation()==UPDATE) {
 
+
                 if(usersDs.getItem().getBuyer()==null){
 
 showOptionDialog("", "Do you wont to create the Buyer?", MessageType.CONFIRMATION,  new Action[]{
